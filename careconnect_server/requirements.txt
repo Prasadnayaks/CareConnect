@@ -1,0 +1,8 @@
+# careconnect_server/requirements.txt
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+google-generativeai
+python-dotenv
+websockets

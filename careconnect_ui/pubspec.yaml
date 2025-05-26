@@ -1,0 +1,31 @@
+name: careconnect_ui
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # For WebSocket communication
+  web_socket_channel: ^2.4.0 
+  # For simple state management (optional, can start with StatefulWidget)
+  provider: ^6.1.2
+  # For unique IDs for list items, if needed
+  uuid: ^4.3.3
+  # For basic styling and icons
+  cupertino_icons: ^1.0.6
+  # For custom fonts
+  google_fonts: ^6.2.1
+  # For formatting dates/times if you add timestamps
+  # intl: ^0.19.0 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
